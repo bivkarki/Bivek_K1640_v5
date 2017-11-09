@@ -1,0 +1,143 @@
+body
+{ margin:0;
+	padding:0;
+	background-color: black;
+}
+@media screen and (max-width: 1000px) {
+	body
+	{
+		width: 100%;
+		float:none;
+	}
+	.news
+	{
+		width:100%;
+		height: auto;
+	}
+    
+}
+.bd
+{ background-image:url('images/bg.jpg');
+background-size: cover;
+width:1340px;
+height:580px;
+}
+.div1 
+{
+	background-color:black;
+	height:150px;
+	width: 1340px;
+	opacity:0.95;
+	color:#FFD700;
+	float:top;
+
+}
+
+.top
+{ opacity:1;
+    float:left;
+	margin-left:530px;
+	width:180px; height:150px; 
+	image-rendering:pixelated;
+}
+p
+{ font-family: Tempus Sans ITC;
+font-size:30px;
+text-decoration:underline;
+font-style: bold;
+font-weight: bold;}
+.menu
+{
+	float:bottom;
+width:1340px;
+height:40px;
+color:black;
+background-color:#00009d;
+opacity:1;
+border-color:powder blue;
+overflow: auto; 
+cursor: pointer;
+}
+
+.menu:hover
+{
+background-color:#33cc33;}
+.menu a:hover
+{
+color:black;
+background-color: #ff8000; 
+transition:1.2s all;
+}
+
+.menu a
+{ color:white;
+	border:1px solid white;
+	border-radius:5px;
+text-transform:uppercase;
+font-size:20px;
+font-family: Verdana;}
+
+a{
+	text-decoration: none;
+}
+ul
+{
+  list-style-type:none;
+  margin:0px;
+}
+li
+{display:inline-block;
+padding:5px 10px;
+font-size:20px;
+letter-spacing:0.9;
+}
+.misc
+{
+	background-color:#A9BCF5;
+	opacity:0.9;
+}
+.footer
+{ width:1340px;
+	font:30px;
+	background:rgba(255,255,255,0.5);
+	font-family: monospace,monospace;
+}
+
+.footer a:hover
+{
+	color:green;
+	background-color:#FFFF00;
+}
+.misc a
+{
+padding:10px 80px;}
+
+
+.news
+{   margin-top: 40px;
+	margin-left: 12px;
+	border:2px double;
+	border-radius:10px;
+	height:415px; width:490px;
+	border-color:grey;
+	color:#0D9A3E;
+	font-family: Segoe Print;
+	background-color: #95D6F9;
+	opacity:1;
+	float:left;
+	}
+.news h3
+{
+	text-decoration:underline;
+	text-decoration-color:orange;
+	color:purple; 
+}
+.news span
+{
+	color:black;
+	font-size:18px;
+	text-decoration: underline;
+	font-size:25px;
+	font-family:Trebuchet MS;
+}
+

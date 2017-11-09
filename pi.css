@@ -1,0 +1,149 @@
+body
+{ margin:0;
+	padding:0;
+	
+}
+.div1 {
+	margin-top: 0px;
+	background-color:black;
+	height:150px;
+	width: 1346px;
+	opacity:0.95;
+	color:#FFD700;
+}
+
+.top
+{ opacity:1;
+    float:left;
+	margin-left:530px;
+	width:180px; height:150px; 
+	image-rendering:pixelated;
+}
+p{ font-family: Tempus Sans ITC;
+font-size:30px;
+text-decoration:underline;
+font-style: bold;
+font-weight: bold;}
+.menu
+{
+	margin:0;
+float:bottom;
+width:1346px;
+height:40px;
+color:black;
+background-color:#00004d;#8cff66;
+opacity:1;
+border-color:powder blue;
+overflow: auto; 
+cursor: pointer;}
+.menu:hover
+{
+background-color:#33cc33;}
+.menu a:hover
+{
+color:black;
+background-color: #ff8000; 
+transition:1.2s all;
+}
+.menu a
+{ color:white;
+	border:1px solid white;
+	border-radius:5px;
+text-transform:uppercase;
+
+font-size:20px;
+font-family: Verdana;}
+
+a{
+	text-decoration: none;
+}
+ul
+{
+  list-style-type:none;
+  margin:0px;
+}
+li
+{display:inline-block;
+padding:5px 12.5px;
+font-size:20px;
+letter-spacing:0.9;
+}
+caption
+{
+	margin-top:5px;
+	font-family:Cooper Std;
+font-size:47px;
+letter-spacing:4px;
+text-decoration:underline;
+text-decoration-color:green; 
+color:yellow;
+}
+ th,td,table
+  {
+     border:2px double black; 
+     border-collapse: collapse;
+}
+th
+{
+	font-size: 45px;
+}
+table
+{  
+	background-color:rgba(208, 211, 212,0.8)  ;
+}
+td
+{
+   text-align:left;
+   color:black;
+}
+tr{
+	font-family:courier;
+	font-style:cursive;
+}
+tr:hover
+{
+	background-color:#A9DFBF;
+}
+.tb1 th
+{   font-size: 30px;
+	letter-spacing: 2px;
+	font-family:verdana;
+	text-align:center;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	color:navy;
+	text-decoration-color:#6B57FC; 
+}
+th:hover
+{background-color:#7487FC;
+}
+#blank
+{background-color:#57FC70;}
+.tb1 label
+{text-decoration:underline;
+ font-style: italic ;
+ color:blue;
+ font-size:20px;
+}
+.tb1 img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:160px; 
+    width:180px;
+    position: relative;
+}
+.tb1 img:hover
+{
+	height:260px; 
+    width:260px;
+   
+
+}
+.tab {
+	background-image: url("images/rmbg.jpg"); 
+	background-repeat:none;	
+	background-attachment:fixed;
+	background-size:cover;
+}
+

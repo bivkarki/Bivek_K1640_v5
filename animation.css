@@ -1,0 +1,25 @@
+.div1 img:hover
+{
+
+    animation:spin1 2.9s 1;
+}
+
+
+.tb1 img:hover
+{ 
+    animation:spin 1.2s 1;
+}
+@keyframes spin1
+{ from
+	{transform:scaleX(-1);}
+	to 
+	{transform:scaleX(1);}
+}
+@keyframes spin
+{ 0%
+{transform: scaleX(1);}
+40%
+{transform: scaleX(-1);}
+80%
+{transform: scaleX(1);}
+}
